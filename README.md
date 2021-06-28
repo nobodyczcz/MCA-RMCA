@@ -36,3 +36,5 @@ $ mapd --help
 
 ## Examples
 
+Detailed usage and examples are comming soon
+
