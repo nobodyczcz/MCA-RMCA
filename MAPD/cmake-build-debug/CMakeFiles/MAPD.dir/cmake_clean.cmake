@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/MAPD.dir/Agent.cpp.o"
+  "CMakeFiles/MAPD.dir/CBSHOnline.cpp.o"
+  "CMakeFiles/MAPD.dir/PathPlanning.cpp.o"
+  "CMakeFiles/MAPD.dir/Task.cpp.o"
+  "CMakeFiles/MAPD.dir/TaskAssignment.cpp.o"
+  "CMakeFiles/MAPD.dir/TaskAssignmentPP.cpp.o"
+  "CMakeFiles/MAPD.dir/TaskAssignmentPPTask.cpp.o"
+  "CMakeFiles/MAPD.dir/TaskAssignmentRegret.cpp.o"
+  "CMakeFiles/MAPD.dir/TaskAssignmentRegretTask.cpp.o"
+  "CMakeFiles/MAPD.dir/TaskAssignmentTaskHeap.cpp.o"
+  "CMakeFiles/MAPD.dir/TaskAssignmentTaskHeapRegret.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/Conflict.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/ConstraintTable.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/CorridorReasoning.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/ICBSHSearchPairAnalysis.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/ICBSNode.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/ICBSSearch.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/LLNode.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/MDD.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/MDDNode.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/RectangleReasoning.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/ReservationTable.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/SingleAgentICBS.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/SinglePlanning.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/agents_loader.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/common.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/compute_heuristic.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/map_loader.cpp.o"
+  "CMakeFiles/MAPD.dir/Users/zche0040/Codes/research/lifelong-mapf/mapf/src/map_loader_with_cost.cpp.o"
+  "CMakeFiles/MAPD.dir/main.cpp.o"
+  "CMakeFiles/MAPD.dir/online_simu.cpp.o"
+  "MAPD"
+  "MAPD.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/MAPD.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
