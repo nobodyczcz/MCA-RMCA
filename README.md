@@ -1,7 +1,7 @@
 # README #
 
 
-This repo contains the codes for paper Integrated Task Assignment and Path Planning for Capacitated Multi-Agent Pickup and Delivery.
+This repo contains the codes for paper [Integrated Task Assignment and Path Planning for Capacitated Multi-Agent Pickup and Delivery](https://arxiv.org/abs/2110.14891).
 
 
 ## Compiling
