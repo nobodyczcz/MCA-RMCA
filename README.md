@@ -45,7 +45,7 @@ For example, the folder with name 0.2-500 indicate each instance have 500 tasks 
 For folder without frequency, all tasks are released at timestep 0.
 
 ```
-$ mapd -m path/to/kiva-agent-maps/kiva-10-500-5.map 
+$ ./mapd -m path/to/kiva-agent-maps/kiva-10-500-5.map 
     -a path/to/kiva-agent-maps/kiva-10-500-5.map
     -t path/to/kiva-tasks/1-500/0.task
     -c 60
