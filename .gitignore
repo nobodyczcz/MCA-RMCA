@@ -1,8 +1,11 @@
 .vscode
 
 build
+debug
 
 .DS_Store
 
 .history
 MAPD/.DS_Store
+
+cmake-build*

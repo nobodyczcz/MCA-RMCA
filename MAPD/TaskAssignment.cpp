@@ -490,7 +490,7 @@ bool TaskAssignment::selectRemoveRepair(std::unordered_set<int>& awaiting_tasks)
 
 
 int TaskAssignment::haveConflict(int agent_id, vector<PathEntry>& path){
-    for (int i = start_timestep>=0?start_timestep:0; i<path.size();i++){
+    for (int i = 1 + (start_timestep>=0?start_timestep:0); i<path.size();i++){
         if (constraintTable.is_path_constrained(agent_id, path[i].location, path[i-1].location,i)) {
             return i;
         }

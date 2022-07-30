@@ -39,7 +39,7 @@ void TaskAssignmentPP::updateAllAssignmentHeap(Agent* updatedAgent,Task* assigne
                     delete assign;
                     delete new_assign;
                     handleTable[i][j].node_ = NULL;
-                    continue;
+                    // continue;
                 }
                 else {
                     new_assign->heap_handle = assign->heap_handle;
@@ -115,7 +115,7 @@ void TaskAssignmentPP::updateAllAssignmentHeap(Agent* updatedAgent,Task* assigne
                         delete assign;
                         delete new_assign;
                         handleTable[i][j].node_ = NULL;
-                        continue;
+                        // continue;
                     }
                     else {
                         new_assign->heap_handle = assign->heap_handle;

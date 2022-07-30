@@ -29,7 +29,8 @@ void TaskAssignmentRegret::updateAllAssignmentHeap(Agent* updatedAgent,Task* ass
                     assignHeap->update(handleTable[i][j]);
                 }
             }
-
+            if(screen>=4)
+                cout<<"Update "<< i <<" "<< updatedAgent->agent_id <<endl;
             if (handleTable[i][updatedAgent->agent_id].node_ != NULL){
                 int j = updatedAgent->agent_id;
                 Assignment* assign = *handleTable[i][j];
@@ -41,7 +42,7 @@ void TaskAssignmentRegret::updateAllAssignmentHeap(Agent* updatedAgent,Task* ass
                     delete assign;
                     delete new_assign;
                     handleTable[i][j].node_ = NULL;
-                    continue;
+                    // continue;
                 }
                 else {
                     new_assign->heap_handle = assign->heap_handle;
@@ -54,6 +55,8 @@ void TaskAssignmentRegret::updateAllAssignmentHeap(Agent* updatedAgent,Task* ass
 
             bool stop = false;
             while (!stop){
+                if(screen>=4)
+                    cout<<"Check top of "<< i <<endl;
                 auto it = assignHeap->ordered_begin();
                 stop = true;
                 for (int count = 0;count<2;count++, it++){
@@ -103,6 +106,8 @@ void TaskAssignmentRegret::updateAllAssignmentHeap(Agent* updatedAgent,Task* ass
                 }
 
             }
+            if(screen>=4)
+                    cout<<"Check top of "<< i <<"Done"<<endl;
 
 
         }
@@ -128,7 +133,7 @@ void TaskAssignmentRegret::updateAllAssignmentHeap(Agent* updatedAgent,Task* ass
                         delete assign;
                         delete new_assign;
                         handleTable[i][j].node_ = NULL;
-                        continue;
+                        // continue;
                     } else {
                         new_assign->heap_handle = assign->heap_handle;
                         assert(new_assign->actions.size() > assign->actions.size());
@@ -201,5 +206,7 @@ void TaskAssignmentRegret::updateAllAssignmentHeap(Agent* updatedAgent,Task* ass
 
 
     }
+    if(screen>=3)
+        cout<<"Update Task Heap Done"<<endl;
 
 }
